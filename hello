@@ -1,0 +1,18 @@
+const sayHello = function(name) {
+    console.log("hello " + name);
+}
+sayHello("puneet")
+
+const hello = function(name1) {
+    return "hello2 " + name1;
+}
+let greeting = hello('puneet1');
+console.log(greeting);
+
+const isEven = function(num) {
+    return num % 2 === 0;
+}
+const tenIsEven = isEven(10);
+const ElevenIsEven = isEven(11);
+console.log(tenIsEven);
+console.log(ElevenIsEven)
